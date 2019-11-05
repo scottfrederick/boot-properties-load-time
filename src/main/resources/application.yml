@@ -1,0 +1,6 @@
+test:
+  containers:
+  - string1: value1
+    integer1: 1
+    array1: []
+
