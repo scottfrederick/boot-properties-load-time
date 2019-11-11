@@ -36,15 +36,15 @@ public class TestProperties {
 		private int integer9;
 		private int integer10;
 
-		private List<String> array1;
-		private List<String> array2;
-		private List<String> array3;
-		private List<String> array4;
-		private List<String> array5;
-		private List<String> array6;
-		private List<String> array7;
-		private List<String> array8;
-		private List<String> array9;
-		private List<String> array10;
+		private List<Integer> array1;
+		private List<Integer> array2;
+		private List<Integer> array3;
+		private List<Integer> array4;
+		private List<Integer> array5;
+		private List<Integer> array6;
+		private List<Integer> array7;
+		private List<Integer> array8;
+		private List<Integer> array9;
+		private List<Integer> array10;
 	}
 }

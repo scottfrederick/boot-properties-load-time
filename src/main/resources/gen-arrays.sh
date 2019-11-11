@@ -21,7 +21,7 @@ EOF
 
   for ((e=0; e<elements; e++)); do
     cat << EOF >> "$filename"
-    - value$e
+    - $e
 EOF
   done
 }
