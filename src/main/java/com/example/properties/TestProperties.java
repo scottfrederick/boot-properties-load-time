@@ -36,15 +36,15 @@ public class TestProperties {
 		private int integer9;
 		private int integer10;
 
-		private List<Integer> array1;
-		private List<Integer> array2;
-		private List<Integer> array3;
-		private List<Integer> array4;
-		private List<Integer> array5;
-		private List<Integer> array6;
-		private List<Integer> array7;
-		private List<Integer> array8;
-		private List<Integer> array9;
-		private List<Integer> array10;
+		private List<Integer> names;
+		private List<Integer> types;
+		private List<Integer> orgs;
+		private List<Integer> spaces;
+		private List<Integer> kinds;
+		private List<Integer> namespaces;
+		private List<Integer> versions;
+		private List<Integer> permissions;
+		private List<Integer> usernames;
+		private List<Integer> passwords;
 	}
 }

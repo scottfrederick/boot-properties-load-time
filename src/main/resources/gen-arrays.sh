@@ -6,16 +6,19 @@ readonly count=$1
 readonly elements=$2
 readonly filename=application-arrays-"$count"-"$elements".yml
 
+readonly field_names=('names' 'types' 'orgs' 'spaces' 'kinds' 'namespaces' 'versions' 'permissions' 'usernames' 'passwords' )
+
 function write_array() {
   local index=$1
+  local name=$2
 
-  if [ "$index" == 1 ]; then
+  if [ "$index" == 0 ]; then
     cat << EOF >> "$filename"
-  - array1:
+  - $name:
 EOF
   else
     cat << EOF >> "$filename"
-    array$index:
+    $name:
 EOF
   fi
 
@@ -32,7 +35,7 @@ test:
 EOF
 
 for ((c=0; c<count; c++)); do
-  for a in {1..20}; do
-    write_array $a
+  for a in {0..9}; do
+    write_array "$a" "${field_names[a]}"
   done
 done
